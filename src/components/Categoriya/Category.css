@@ -1,0 +1,83 @@
+.category {
+  width: 100%;
+  min-height: 700px;
+  text-align: center;
+  background: rgb(244, 244, 244);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darkblue;
+  margin-top: 10px;
+}
+.category h2 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+.category .map {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.category .map p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  border: 3px solid rgb(244, 244, 244);
+  padding-bottom: 3px;
+  transition: 0.5s;
+}
+.category .map p:hover {
+  cursor: pointer;
+  border-bottom: 3px solid black;
+  opacity: 60%;
+}
+.category .img__part {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.category .img__part img {
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+.category .category__p {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.category .category__p h2 {
+  font-size: 52px;
+}
+.category .category__p p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times;
+}
+.category .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+.category .btns button {
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+  background: transparent;
+}
+.category .btns button:hover {
+  cursor: pointer;
+}
+.category .btns .buton_buy {
+  background: black;
+  color: aliceblue;
+  padding: 12px 24px;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+.category .btns .buton_buy:hover {
+  cursor: pointer;
+  opacity: 50%;
+  color: aliceblue;
+}/*# sourceMappingURL=Category.css.map */
