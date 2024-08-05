@@ -68,9 +68,12 @@
             .images{
                 display: flex;
                 justify-content: center;
+                background: transparent;
 
                 img{
                     width: 200px;
+                    background: transparent;
+                    height: 150px;
                 }
             }
 

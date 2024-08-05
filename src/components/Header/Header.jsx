@@ -1,6 +1,12 @@
 import React from 'react'
 import "../Header/Header.scss"
-import rasm from '../img/z6.jpg'
+import rasm from '../img/z6.png'
+import s9 from '../img/s9.png'
+import s23 from '../img/s23.png'
+import airpos from '../img/airpos.avif'
+import flip from '../img/flip.png'
+
+
 
 const data = [
     {
@@ -19,28 +25,28 @@ const data = [
     },
     {
         id: 3,
-        url: rasm,
+        url: s9,
         title: "Galaxy Tab S9,128GB",
         price: "Save up to $300",
         desc: "From $549.99 before eligible trade-in."
     },
     {
         id: 4,
-        url: rasm,
+        url: flip,
         title: "Galaxy Z Flip6, 512GB",
         price: "Save up to $650",
         desc: "From $1219.99 before eligible trade-in."
     },
     {
         id: 5,
-        url: rasm,
+        url: s23,
         title: "Galaxy S23",
         price: "Save up to $540",
         desc: "From $759.99 before eligible trade-in."
     },
     {
         id: 6,
-        url: rasm,
+        url: airpos,
         title: "Galaxy Buds3 Pro",
         price: "Save up to $100",
         desc: "From $249.99 before eligible trade-in."

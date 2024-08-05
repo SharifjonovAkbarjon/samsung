@@ -57,9 +57,12 @@
 .header__body .header__collection .product__collection .images {
   display: flex;
   justify-content: center;
+  background: transparent;
 }
 .header__body .header__collection .product__collection .images img {
   width: 200px;
+  background: transparent;
+  height: 150px;
 }
 .header__body .header__collection .product__collection p {
   font-size: 20px;
