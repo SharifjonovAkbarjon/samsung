@@ -3,11 +3,11 @@ import rasm from '../img/1.jpg'
 import "../Categoriya/Category.scss"
 import links from '../Main/Main'
 
-const Category = ({ matn,bg,  text, img,name,title }) => {
+const Category = ({ matn, bg, text, img, name, title }) => {
   return (
     <>
       <div className="container">
-        <div style={{background:bg}} className='category'> 
+        <div style={{ background: bg }} className='category'>
           <h2>{text}</h2>
           <div className='map'>
             {matn?.map((el, inx) => (
